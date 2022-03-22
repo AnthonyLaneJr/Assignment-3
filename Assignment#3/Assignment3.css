@@ -1,0 +1,104 @@
+/* use border and border raidus attributes */
+/* global */
+* { 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(165, 7, 7, 0.753);
+    }
+
+/* utilities */
+
+/* Leave room to insert photo in top right and bottom right sections */
+
+/* header */
+    header{
+        height: 40vh;  
+    }
+    h1{
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-decoration-color: rgba(210, 211, 152, 0.404);
+        text-shadow:1px 1px 1px rgb(223, 23, 50);
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%; 
+    }
+    .header-background{
+        background-image: url(pink-moon.png);
+        background-position: center center;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    nav.social-media{
+        display: flex;
+        justify-content: center;
+        flex-direction: row; 
+        
+    margin-bottom: 2rem;
+    }
+
+
+    nav.social-media a{
+        color: white;
+        font-size: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        }
+
+/* body */
+    body{
+        background-color: lightgray;
+        font-size: medium;
+    }
+
+    h2{
+        background-color: darkgray;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: rgba(210, 211, 152, 0.404);
+        text-shadow:1px 1px 1px rgb(223, 23, 50);
+        font-weight: 600;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 30%;
+        margin-right: 30%;
+        }
+    .p1{
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 30%;
+        }
+    .p2{
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        }
+    .p3{
+        text-align: right;
+        margin-left: 30%;
+        margin-right: 10%;
+        }
+
+        nav.project-links{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 10vh;
+        }
+        .bottom-links{
+            background-color: rgb(223, 23, 50);
+        }
+        a.home, a.projects, a.test{
+            text-align: end;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding: 1rem;
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+        }
+        
+        
